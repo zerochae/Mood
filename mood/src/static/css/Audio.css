@@ -1,0 +1,74 @@
+
+.aduio-box{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.audio input[aria-label="미디어 컨트롤 더보기"]{
+  display: none;
+}
+
+audio::-webkit-media-controls-panel{
+  background-color : white;
+
+}
+
+
+.audio input{
+ display : none
+}
+
+.playBtn{
+  border: none;
+  background-color: white;
+}
+/* 
+.playBtn {
+  background: #000000;
+  color: #fff;
+  border: none;
+  position: relative;
+  height: 60px;
+  font-size: 1.6em;
+  padding: 0 2em;
+  cursor: pointer;
+  transition: 800ms ease all;
+  outline: none;
+}
+
+.playBtn:before {
+  content: "";
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.playBtn:hover {
+  background: #fff;
+  color: #000000;
+}
+
+.playBtn:before,
+.playBtn:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: #000000;
+  transition: 400ms ease all;
+}
+
+.playBtn:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+.playBtn:hover:before,
+.playBtn:hover:after {
+  width: 100%;
+  transition: 800ms ease all;
+} */

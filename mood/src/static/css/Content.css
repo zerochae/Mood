@@ -1,0 +1,58 @@
+.content-body{
+    min-width: 500px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.songInfoBtn {
+  background: #000000;
+  color: #fff;
+  border: none;
+  position: relative;
+  height: 60px;
+  font-size: 1.6em;
+  padding: 0 2em;
+  cursor: pointer;
+  transition: 800ms ease all;
+  outline: none;
+}
+
+.songInfoBtn:before {
+  content: "";
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.songInfoBtn:hover {
+  background: #fff;
+  color: #000000;
+}
+
+.songInfoBtn:before,
+.songInfoBtn:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: #000000;
+  transition: 400ms ease all;
+}
+
+.songInfoBtn:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+.songInfoBtn:hover:before,
+.songInfoBtn:hover:after {
+  width: 100%;
+  transition: 800ms ease all;
+}
+
+.content-table{
+  margin-top: 15px;
+}
